@@ -974,11 +974,11 @@
 
     
         .about-paragraph {
-            background-color: rgb(163, 167, 167);
+              background-color: rgb(163, 167, 167);
             top: 12%;
             color: #3F4F4C;
             border-radius: 7px;
-            padding: 3%;
+            padding: 2%;
             height: 40%;
             width: 95vw !important;
             margin: 5%;
