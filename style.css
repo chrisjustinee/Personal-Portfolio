@@ -844,6 +844,7 @@
             top: 10%;
             margin-left: 2%;
             overflow-y: scroll;
+            overflow-x: hidden;
             padding: 2%;
 
         }
