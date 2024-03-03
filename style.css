@@ -974,13 +974,13 @@
 
     
         .about-paragraph {
-              background-color: rgb(163, 167, 167);
+            background-color: rgb(163, 167, 167);
             top: 12%;
             color: #3F4F4C;
             border-radius: 7px;
             padding: 2%;
             height: 40%;
-            width: 95vw !important;
+            width: 90% !important;
             margin: 5%;
             overflow-y: scroll;
             position: absolute;  
