@@ -355,7 +355,7 @@
     .police_about {
         font-family: 'Kurale';
         text-align: justify;
-        padding: 5%;
+        padding: 3%;
 
     }
 
@@ -983,6 +983,7 @@
             margin: 5%;
             overflow-y: scroll;
             position: absolute;  
+            z-index: 2;
         }
 
         .about {
@@ -1011,12 +1012,6 @@
             position: relative; 
             z-index: 1;
         }
-
-        
-        
-
-
-
 
     }
 
