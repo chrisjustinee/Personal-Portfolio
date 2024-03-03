@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content="width-device-width, initial-scale=1.0">
+    <title>CHRIS JUSTINE ALAMARES</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Kurale' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Kulim Park' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header"></div>
+    <div class = "row">
+        <div class = "column">
+            <div class = "leftside">
+                <div class="text">
+                    CHRIS JUSTINE <br>
+                    NOBLEZA ALAMARES
+                </div>
+            </div>
+        </div>
+        <div middle> <img src="images/CJ.png" alt="Chris" class="center"></div>
+        <div class = "column">
+            <div class = "rightside">
+                <div class = "container">
+                    <nav>
+                        <ul id="sidemenu">
+                            <li><a href = "#" style="font-weight: bold;">Home</a></li>
+                            <li><a href = "about.html">About Me</a></li>
+                            <li><a href = "projects.html">Projects</a></li>
+                            <li><a href = "contact.html">Contact</a></li>
+                            <i class="fa fa-times" onclick="closemenu()"></i>
+                        </ul>
+                        <i id="bar" class="fa fa-bars" onclick="openmenu() "style="color: #3F4F4C; position: absolute; right: 25px; top: 10px;"></i>
+                    </nav>
+                </div>
+                <div class = "role">
+                    <div class = "role1">
+                        DATA ANALYST
+                    </div>
+                    <div class = "role2">
+                        FRONTEND DEVELOPER
+                    </div>
+                    <div class = "role3">
+                        BACKEND DEVELOPER
+                    </div>
+                    <div class = "role4">
+                        DATABASE ADMINISTRATOR
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        var bar = document.getElementById("bar");
+    
+        function openmenu(){
+            sidemenu.style.right = "0";
+            bar.style.opacity = "0";
+        }
+    
+        function closemenu(){
+            sidemenu.style.right = "-145px";
+            bar.style.opacity = "1";
+        }
+    
+    </script>
+    
+</body>
+</html>
+

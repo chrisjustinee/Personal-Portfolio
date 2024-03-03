@@ -1,0 +1,1023 @@
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+    }
+
+    .leftside, .rightside{
+        height: 100vh;
+        width: 50%;
+        
+    }
+    .leftside{
+        position: relative;
+        background: #3F4F4C;
+        float: left;
+    }
+    .rightside{
+        background: #E5E5E5;
+        float: left;
+    }
+    .center {
+        position: absolute;
+        left:0;
+        top:0;
+        bottom:0;
+        right:0;
+        margin:auto;
+        margin-bottom: 0;
+    }
+
+    .text {
+        text-align: center; 
+        font-family:'Lato'; 
+        font-size: 40px; 
+        align-items: center; 
+        color: #E5E5E5; 
+        display: flex;
+        height: 100%; 
+        justify-content: center; 
+        position: absolute; 
+        width: 100%;
+        margin-left: -5%; 
+        left: 0; 
+        top: 0; 
+        z-index: 1;
+    }
+
+    .container {
+        padding: 10px 10%;
+    }
+    nav {
+        height: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .nav1 {
+        display: none !important;
+    }
+
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px 25px;
+    }
+
+    nav ul li a{
+        color: #3F4F4C;
+        text-decoration: none;
+        font-size: 22px;
+        font-family: Kurale;
+        position: relative;
+    }
+
+    nav ul li a::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        background: gray;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition: 0.5s;
+    }
+
+    nav ul li a:hover::after{
+        width: 100%;
+    }
+
+    .role1, .role2, .role3, .role4 {
+        font-family: 'Lato';
+        font-size: 30px;
+        font-weight: 600;
+        color: #3F4F4C;
+    }
+
+    .role1{
+        margin-top: 15%; 
+        margin-left: 15%;
+    }
+
+    .role2 {
+        margin-top: 10%;
+        margin-left: 20%;
+    }
+
+    .role3 {
+        margin-top: 10%;
+        margin-left: 27%;
+    }
+
+    .role4 {
+        margin-top: 10%; 
+        margin-left: 32%;
+    }
+
+  /* about */
+  
+    .about-text {
+        text-align: center; 
+        font-family:'Lato'; 
+        font-size: 60px; 
+        align-items: center; 
+        color: #E5E5E5; 
+        display: flex;
+        font-weight: bold;
+        height: 100%; 
+        justify-content: center; 
+        position: absolute; 
+        width: 100%;
+        margin-left: -2%; 
+        margin-top: -25%;
+        left: 0; 
+        top: 0; 
+        z-index: 1;
+    }       
+
+    .about-pic {
+        position:absolute;
+        left:0;
+        top:0;
+        bottom:0;
+        right:0;
+        margin:auto;
+        margin-bottom: 0;
+        margin-right: 6%;
+    }
+
+    .about-paragraph {
+        font-family: 'Lato';
+        font-size: 17.2px;
+        color: #3F4F4C;
+        margin: 5%;
+    }
+
+    .button-about {
+        background-color: #3F4F4C;
+        border: none;
+        text-indent: 0;
+        align-items: center;
+        color: #E5E5E5;
+        height: 35px;
+        width: 25%; 
+        justify-content: center;
+        justify-self: center;
+        vertical-align: middle;
+        text-decoration: none;
+        font-size: auto;
+        display: flex;
+        float: right;
+        cursor: pointer;
+        margin-top: 4%;
+        margin-right: 1%;
+    }
+
+    
+
+     /* projects */
+
+    .text-1 {
+        color: #E5E5E5;
+        font-family: 'Lato';
+        font-size: 60px;
+        display: flex; 
+        justify-content: flex-end;
+        font-weight: bolder;
+        
+    }
+
+    .text-2 {
+        color: #3F4F4C;
+        font-family: 'Lato';
+        font-size: 60px;
+        font-weight: bolder;
+
+    }
+
+    .title1 {
+        color: #E5E5E5;
+        font-family: 'Kurale';
+        font-size: 35px;
+        text-align: center;
+        font-weight: bold;
+        position: relative;
+    }
+
+    .title2 {
+        color: #3F4F4C;
+        font-family: 'Kurale';
+        font-size: 35px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .la {
+        color:#E5E5E5;
+        width: 97%;
+        height: 65%;
+        margin: auto;
+        position: relative;
+     
+    }
+
+    .projpro {
+        color:#3F4F4C;
+        width: 97%;
+        height: 65%;
+        margin: auto;
+        position: relative;
+     
+    }
+
+    .proj {
+        color: #E5E5E5;
+        background-color: #3F4F4C;
+        width: 97%;
+        height: 65%;
+        margin: auto;
+        position: relative;
+    }
+
+    .images, .images1 {
+        position: relative;
+    }
+
+    .cont1 {
+        width: 100%;
+        height: 50%;
+        position: relative;
+    }
+
+
+    .contleft1 {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        float: left;
+        position: relative;
+
+    }
+
+    .contright1 {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        float: right;
+        margin: auto;
+
+    }
+
+    .cont2 {
+        width: 100%;
+        height: 50%;
+        position: relative;
+    }
+
+    .rcont2 {
+        width: 100%;
+        height: 40%;
+        position: relative;
+    }
+
+    .contleft2 {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        float: left;
+    }
+
+    .rcontleft2 {
+        height: 100%;
+        width: 50%;
+        position: relative;
+        display: flex;
+        float: left;
+    }
+
+    .contright2 {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        float: right;
+        position: relative;
+
+    }
+
+    .rcontright2 {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        float: right;
+        position: relative;
+
+    }
+
+    .la_image {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        transition: 0.3s all ease;
+    }
+    
+    .la_image:hover {
+        transform: scale(0.9);
+    }
+
+    .la_about {
+        margin: 2%; 
+        font-family: 'Kurale';
+        text-align: justify;
+    }
+
+    .tamish_image {
+        width: 100%;
+        height:100%;
+        cursor: pointer;
+        transition: 0.3s all ease;
+        
+    }
+    
+    .tamish_image:hover {
+        transform: scale(0.9);
+    }
+
+    .tamish_about {
+        margin: 2%;
+        font-family: 'Kurale';
+        text-align: justify;
+
+    }
+
+    .police_about {
+        font-family: 'Kurale';
+        text-align: justify;
+        padding: 5%;
+
+    }
+
+    .police_image {
+        width: 100%;
+        position: relative;
+        height:100%;
+        margin: 1.5%;
+        cursor: pointer;
+        transition: 0.3s all ease;
+    }
+
+    .police_image:hover {
+        transform: scale(0.9);
+    }
+
+    .button {
+        background-color: #3F4F4C;
+        border: none;
+        color: #E5E5E5;
+        padding: 12px 18px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: auto;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin-top: 5%;
+        
+    }
+
+    #modal1 {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #E5E5E5;
+        opacity: 0;
+        pointer-events: none;
+        z-index: 1;
+    }
+
+    #modal2 {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #E5E5E5;
+        opacity: 0;
+        pointer-events: none;
+        z-index: 1;
+    }
+
+    .modalContent {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modalImg {
+        width: 80%;
+        height: 500px;
+        max-width: 900px;
+        animation: zoom 0.3s linear;
+    }
+
+    .modalImg1 {
+        width: 80%;
+        height: 500px;
+        max-width: 900px;
+        animation: zoom 0.3s linear;
+    }
+
+    .close1, .close2 {
+        position: absolute;
+        top: 1em;
+        right: 1.5em;
+        font-size: 1.5em;
+        cursor: pointer;
+    }
+
+    #modal1.appear {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    #modal2.appear {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    .modal.appear .modalImg,
+    .modal2.appear .modalTxt{
+        animation: zoom 0.3s linear;
+    }
+
+    .slider {
+        margin: 50px auto;
+        width: 50%;
+    }
+
+    .img-box img{
+        width: 100%;
+    }
+
+    .btn {
+        border: none;
+        outline: none;
+        background: #888;
+        padding: 10px 30px;
+        font-size: 20px;
+        color: #ddd;
+        cursor: pointer;
+        margin: 10px auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn:hover {
+        background: #111;
+    }
+
+    @keyframes zoom {
+        from{
+            transform: scale(0);
+        }
+        to {
+            transform: scale(1);
+        }
+    }
+
+    /* contact */
+    .icon {
+        margin-left: 20%;
+        font-size: 60px;
+    }
+
+    .icon1 {
+        font-size: 20px;
+        margin: auto; 
+        margin-left: 5%;
+    }
+
+    .icon3 {
+        font-size: 20px;
+        margin: auto; 
+        margin-left: 6%;
+    }
+
+    .icon2 {
+        font-size: 20px;
+        margin: auto; 
+        margin-left: 4%;
+    }
+
+    .contact-text {
+        text-align: center; 
+        font-family:'Lato'; 
+        font-size: 50px; 
+        align-items: center; 
+        color: #E5E5E5; 
+        display: flex;
+        height: 100%; 
+        justify-content: center; 
+        position: absolute; 
+        width: 100%;
+        left: 0; 
+        top: 0; 
+        z-index: 1;
+    }
+
+    .contact-paragraph {
+        font-family: 'Lato';
+        font-size: 20px;
+        font-weight: bold;
+        color: #3F4F4C;
+        margin: 5%;
+    }
+
+    .contact-container {    
+        font-family:'Lato'; 
+        font-size: 20px; 
+        align-items: center; 
+        color: #3F4F4C; 
+        height: 70%;   
+        justify-content: center; 
+        position: relative; 
+        width: 70%;
+        margin: auto;
+        left: 0; 
+        top: 20%; 
+        z-index: 1;
+    }
+
+   /* ------------css for small screens-------------- */
+
+   nav .fa {
+    display: none;
+   }
+   @media only screen and (min-width: 1025px){
+        .email-mobile {
+            display: none !important;
+        }
+
+        .transparent-background {
+            display: none !important;
+        }
+
+        .about-mobile {
+            display: none !important;
+        }
+
+        .resume-mobile {
+            display: none !important;
+        }
+
+        .about-pic-mobile {
+            display: none !important;
+        }
+
+    }
+
+    @media only screen and (width: 1920px){
+        .center {
+            position: absolute;
+            width: 65%;
+            height: 65%;
+            left:0;
+            top:0;
+            bottom:0;
+            right:0;
+            width: 30%;
+            height: 80%;
+            margin:auto;
+            margin-bottom: 0;
+        }
+
+    }
+
+    @media only screen and (width: 1024px){
+        .center {
+            position: absolute;
+            width: 65%;
+            height: 65%;
+            left:0;
+            top:0;
+            bottom:0;
+            right:0;
+            width: 35% !important;
+            height: 80%;
+            margin:auto;
+            margin-bottom: 0;
+        }
+
+        nav ul li{
+            display: inline-block;
+            list-style: none;
+            margin: 10px 10px;
+        }
+
+        .text {
+            text-align: center; 
+            font-family:'Lato'; 
+            font-size: 35px; 
+            align-items: center; 
+            color: #E5E5E5; 
+            display: flex;
+            height: 100%; 
+            justify-content: center; 
+            position: absolute; 
+            width: 100%;
+            left: 5%; 
+            top: -25%; 
+            z-index: 1;
+        }
+
+        
+        .role1, .role2, .role3, .role4 {
+            font-family: 'Lato';
+            font-size: 25px;
+            font-weight: bold;
+            color: #3F4F4C;
+            font-family:'Lato'; 
+            text-align: center;
+            align-items: center; 
+            justify-content: center; 
+            width: 100%;
+            margin: 1%;
+            margin-top: 10%;
+            z-index: 1;
+        }
+
+        .role1 {
+            margin-top: 9vh;
+        }
+
+    }
+
+    @media only screen and (max-width: 1024px){
+    /* index */
+        .center {
+            position: absolute;
+            width: 65%;
+            height: 65%;
+            left:0;
+            top:0;
+            bottom:0;
+            right:0;
+            margin:auto;
+            margin-bottom: 0;
+        }
+
+        .text {
+            text-align: center; 
+            font-family:'Lato'; 
+            font-size: 22px; 
+            align-items: center; 
+            color: #E5E5E5; 
+            display: flex;
+            height: 100%; 
+            justify-content: center; 
+            position: absolute; 
+            width: 100%;
+            left: 5%; 
+            top: -25%; 
+            z-index: 1;
+        }
+
+        nav .fa {
+            display: block;
+            font-size: 25px;
+        }
+
+        nav ul {
+            text-align: center;
+            background: #a6a6a6;
+            position: fixed;
+            top: 0;
+            right: -145px;
+            width: 145px;
+            height: 100vh;
+            padding-top: 50px;
+            z-index: 2;
+        }
+
+        nav ul li {
+            display: block;
+            margin: 25px;
+        }
+
+        nav ul .fa {
+            color: #3F4F4C;;
+            position: absolute;
+            top: 25px;
+            right: 25px;
+            cursor: pointer;
+        }
+
+        .role1, .role2, .role3, .role4 {
+            font-family: 'Lato';
+            font-size: 16px;
+            font-weight: bold;
+            color: #3F4F4C;
+            font-family:'Lato'; 
+            text-align: center;
+            align-items: center; 
+            justify-content: center; 
+            width: 100%;
+            margin: 1%;
+            margin-top: 10%;
+            z-index: 1;
+        }
+
+        .role1 {
+            margin-top: 12vh;
+        }
+    
+       
+
+        /* contact */
+        .email {
+            display: none !important;
+        }
+
+        .contact-text {
+            text-align: center; 
+            font-family:'Lato'; 
+            font-size: 20px; 
+            align-items: center; 
+            color: #E5E5E5; 
+            display: flex;
+            height: 100%; 
+            justify-content: center; 
+            position: absolute; 
+            width: 100%;
+            left: 0; 
+            top: 0; 
+            z-index: 1;
+        }
+
+        .contact-container {    
+            font-family:'Lato'; 
+            font-size: 10px; 
+            align-items: center; 
+            color: #3F4F4C; 
+            height: 70%;   
+            justify-content: center; 
+            position: relative; 
+            width: 100%;
+            margin: auto;
+            left: -15%; 
+            top: 35%; 
+            z-index: 1;
+        }
+
+        .icon {
+            
+            font-size: 20px;
+        }
+    
+        .icon1 {
+            font-size: 12px;
+            margin-left: 4%;
+       
+        }
+    
+        .icon3 {
+            font-size: 12px;
+            margin-left: 4%;
+        }
+    
+        .icon2 {
+            font-size: 12px;
+            margin-left: 4%;
+        }
+
+        /* projects */
+
+        body {
+            height: 100vh;
+            width:100vw;
+            margin: 0;
+            background: url(images/mobile-bg.png) no-repeat center center fixed; 
+            min-height: 100%;
+            background-size: 100% 100vh; 
+           
+        }
+
+        .text-1 {
+            color: #E5E5E5;
+            font-family: 'Lato';
+            font-size: 30px;
+            height: 30px;
+            display: flex; 
+            justify-content: flex-end;
+            font-weight: bolder;
+        }
+    
+        .text-2 {
+            color: #3F4F4C;
+            height: 30px;
+            font-family: 'Lato';
+            font-size: 30px;
+            margin-left: 2px;
+            font-weight: bolder;   
+        }  
+
+       
+        .title1, .title2, .projpro, .la {
+           display: none;
+        }
+
+        .transparent-background {
+            background-color: rgb(163, 167, 167);
+            height: 85%;
+            position: absolute;
+            z-index: 1;
+            width: 95vw;
+            top: 10%;
+            margin-left: 2%;
+            overflow-y: scroll;
+            padding: 2%;
+
+        }
+
+        .mobile-title1 {
+            margin-top: 1%;
+            color: #3c3c3c;
+            font-family: 'Kurale';
+            font-size: 20px;
+            text-align: center;
+            font-weight: bold;
+            position: relative;
+            width: 100vw;
+            text-align: center;
+            opacity: 1;
+        }
+    
+        #modal1 {
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #E5E5E5;
+            opacity: 0;
+            pointer-events: none;
+            z-index: 2;
+        }
+    
+        #modal2 {
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #E5E5E5;
+            opacity: 0;
+            pointer-events: none;
+            z-index: 2;
+        }
+
+        .modalImg {
+            width: 350px;
+            height: 300px;
+            max-width: 900px;
+            animation: zoom 0.3s linear;
+        }
+    
+        .modalImg1 {
+            width: 350px;
+            height: 300px;
+            max-width: 900px;
+            animation: zoom 0.3s linear;
+        }
+    
+        .close1, .close2 {
+            position: absolute;
+            top: 2em;
+            right: 0.5em;
+            font-size: 1.5em;
+            cursor: pointer;
+        }
+    
+        .la_image, .tamish_image {
+            width: 100%;
+            height: 45%;
+            padding: 2%;
+            position: relative;  
+            cursor: pointer;
+            transition: 0.3s all ease;
+        }
+
+        .police_image {
+            width: 100%;
+            height: 45%;
+            margin-left: 0;
+            padding: 2%;
+        }
+        
+        .la_image:hover, .tamish_image:hover, .police_image:hover {
+            transform: scale(0.9);
+        }
+    
+        .la_about, .tamish_about, .police_about  {
+            text-indent: 30px;
+            color: #3F4F4C;
+            margin: 2%; 
+            margin-bottom: 3.5%;
+            font-size: 16px;
+            font-family: 'Kurale';
+            text-align: justify;
+        }
+
+        /* about */
+        
+        .about-text {
+            text-align: center; 
+            font-family:'Lato'; 
+            font-size: 30px;    
+            color: #E5E5E5; 
+            display: flex;
+            font-weight: bold;
+            height: 100%; 
+            position: absolute; 
+            width: 100%;
+            bottom: 80%;
+            margin: auto;
+            z-index: 1;
+        }       
+    
+        .about-pic {
+            display: none !important;
+        }
+
+        .about-pic-mobile {
+            height: 70%;
+            width: 95%;
+            position:absolute;
+            bottom:0;
+            left: 0.5%;
+            margin:auto;
+            margin-bottom: 0;
+            margin-right: 6%;
+        }
+
+    
+        .about-paragraph {
+            background-color: rgb(163, 167, 167);
+            top: 12%;
+            color: #3F4F4C;
+            border-radius: 7px;
+            padding: 3%;
+            height: 40%;
+            width: 90% !important;
+            margin: 5%;
+            overflow-y: scroll;
+            position: absolute;  
+        }
+
+        .about {
+            display: none !important;
+        }
+
+        .resume-mobile {
+            height: 10%;
+            width: 80%;
+            position: absolute;
+            top: 57%;
+            left: 12%;
+          
+        }
+        .button-about {
+            background-color: #3F4F4C;
+            border: none;
+            color: #E5E5E5;
+            height: 45%;
+            width: 40%;
+            text-decoration: none;
+            font-size: auto;
+            cursor: pointer;
+            text-align: center; 
+            font-family:'Lato';     
+            position: relative; 
+            z-index: 1;
+        }
+
+        
+        
+
+
+
+
+    }
+
+   

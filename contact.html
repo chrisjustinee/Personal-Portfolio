@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content="width-device-width, initial-scale=1.0">
+    <title>CHRIS JUSTINE ALAMARES</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Kurale' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Kulim Park' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="header"></div>
+    <div class = "row">
+        <div class = "column">
+            <div class = "leftside">
+                <div class="contact-text">
+                    CONTACT<br>INFORMATION
+                </div>
+                
+            </div>
+        </div>
+    
+        <div class = "column">
+            <div class = "rightside">
+                <div class = "container">
+                    <nav>
+                        <ul id="sidemenu">
+                            <li><a href = "index.html">Home</a></li>
+                            <li><a href = "about.html">About Me</a></li>
+                            <li><a href = "projects.html">Projects</a></li>
+                            <li><a href = "#" style="font-weight: bold;">Contact</a></li>
+                            <i class="fa fa-times" onclick="closemenu()"></i>
+                        </ul>
+                        <i id="bar" class="fa fa-bars" onclick="openmenu() "style="color: #3F4F4C; position: absolute; right: 25px; top: 10px;"></i>
+                    </nav>
+                </div>
+                <div class="contact-container" >
+                    <div class="phone" style="display: flex;">
+                        <div class="icon"><i class="fa fa-phone"></i></div><p class="icon1">+639773734899</p>
+                    </div>
+
+                    <br><br>
+
+                    <div class="email-mobile" style="display: flex;">
+                        <div class="icon"><i class="fa fa-envelope"></i></div><p class="icon2"><a style="color: #3F4F4C; " href="mailto:chrisjustineealamares@gmail.com?">chrisjustineeala<br>mares@gmail.com</a></p>
+                    </div>
+
+                    <div class="email" style="display: flex;">
+                        <div class="icon"><i class="fa fa-envelope"></i></div><p class="icon2"><a style="color: #3F4F4C; " href="mailto:chrisjustineealamares@gmail.com?">chrisjustineealamares@gmail.com</a></p>
+                    </div>
+
+                    <br><br>
+
+                    <div class="linkedin" style="display: flex;">
+                        <div class="icon"><i class="fa fa-linkedin"></i></div><p class="icon3"> <a style="color: #3F4F4C;"" href="linkedin.com/in/chris-justine-alamares-7732652b7">linkedin.com/in/chris-justine-alamares-7732652b7</a></p> 
+                    
+                    <br> <br>
+                    
+                    </div>
+                  
+                </div>
+          
+                   
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        var bar = document.getElementById("bar");
+    
+        function openmenu(){
+            sidemenu.style.right = "0";
+            bar.style.opacity = "0";
+        }
+    
+        function closemenu(){
+            sidemenu.style.right = "-145px";
+            bar.style.opacity = "1";
+        }
+    
+    </script>
+    
+</body>
+</html>
+
